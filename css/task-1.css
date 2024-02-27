@@ -1,0 +1,41 @@
+.title {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #2e2f42;
+}
+
+.categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 440px;
+  padding: 24px;
+  list-style: none;
+}
+
+.item {
+  background-color: #f6f6fe;
+  border-radius: 8%;
+  padding: 16px 16px;
+}
+
+.list-item {
+  border: 1px solid #808080;
+  border-radius: 4%;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+}
