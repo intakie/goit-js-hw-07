@@ -1,0 +1,22 @@
+.widget {
+  padding: 100px 88px;
+  width: 345px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  color: #ffffff;
+  width: 148px;
+  height: 40px;
+  border: 0;
+  border-radius: 8%;
+  padding: 8px 16px;
+}
