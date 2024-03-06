@@ -16,17 +16,20 @@ const images = [
 const gallery = document.querySelector('.gallery');
 
 const galleryImg = images
-  .map(({ url, alt }) => `<li><img src = '${url}' alt = '${alt}' /></li >`)
+  .map(
+    ({ url, alt }) =>
+      `<li><img src = '${url}' alt = '${alt}' class='img-item' /></li >`
+  )
   .join('');
 
 gallery.insertAdjacentHTML('beforeend', galleryImg);
 
-const head = document.querySelector('head');
-const link = '<link rel="stylesheet" href="./css/task-2.css" />';
-head.insertAdjacentHTML('beforeend', link);
+// const head = document.querySelector('head');
+// const link = '<link rel="stylesheet" href="./css/task-2.css" />';
+// head.insertAdjacentHTML('beforeend', link);
 
-const imgs = document.querySelectorAll('img');
+// const imgs = document.querySelectorAll('img');
 
-imgs.forEach(img => {
-  img.classList.add('img-item');
-});
+// imgs.forEach(img => {
+//   img.classList.add('img-item');
+// });

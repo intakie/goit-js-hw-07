@@ -39,15 +39,15 @@ function getRandomHexColor() {
     .padStart(6, '0')}`;
 }
 
-const head = document.querySelector('head');
-const link = '<link rel="stylesheet" href="./css/task-6.css" />';
-head.insertAdjacentHTML('beforeend', link);
-const font =
-  '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">';
-head.insertAdjacentHTML('beforeend', font);
+// const head = document.querySelector('head');
+// const link = '<link rel="stylesheet" href="./css/task-6.css" />';
+// head.insertAdjacentHTML('beforeend', link);
+// const font =
+//   '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">';
+// head.insertAdjacentHTML('beforeend', font);
 
 boxes.classList.add('boxes');
 inputDiv.classList.add('input');
-input.classList.add('input-inp');
-createBtn.classList.add('btn1');
-destroyBtn.classList.add('btn2');
+input.classList.add('input-style');
+createBtn.classList.add('create-btn');
+destroyBtn.classList.add('destroy-btn');
